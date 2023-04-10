@@ -79,6 +79,7 @@ Example commands:
 
 Install this project with:
 
+bundle install
 <!--
 Example command:
 
@@ -89,6 +90,8 @@ Example command:
 --->
 
 ### Usage
+
+N/A
 
 <!-- To run the project, execute the following command: -->
 
@@ -102,6 +105,7 @@ Example command:
 
 ### Run tests
 
+N/A
 <!-- To run tests, run the following command: -->
 
 <!--
