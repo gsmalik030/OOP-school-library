@@ -54,13 +54,7 @@ In this project ruby project I'm creating a school library.
 ### Prerequisites
 
 
-<!--
-Example command:
 
-```sh
- gem install rails
-```
- -->
 
 ### Setup
 
