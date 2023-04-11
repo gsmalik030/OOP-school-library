@@ -54,13 +54,7 @@ In this project ruby project I'm creating a school library.
 ### Prerequisites
 
 
-<!--
-Example command:
 
-```sh
- gem install rails
-```
- -->
 
 ### Setup
 
@@ -79,6 +73,7 @@ Example commands:
 
 Install this project with:
 
+bundle install
 <!--
 Example command:
 
@@ -89,6 +84,8 @@ Example command:
 --->
 
 ### Usage
+
+N/A
 
 <!-- To run the project, execute the following command: -->
 
@@ -102,6 +99,7 @@ Example command:
 
 ### Run tests
 
+N/A
 <!-- To run tests, run the following command: -->
 
 <!--
