@@ -7,7 +7,7 @@ class Classroom
   end
 
   def add_students(student)
-    @student.push(student)
-    student.update_classroom(self)
+    @students.push(student)
+    student.owner = self
   end
 end
