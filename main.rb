@@ -2,7 +2,7 @@
 require_relative 'app'
 def main
   options = [
-    "\n\nPleas choose an option by entering a bunber",
+    "\n\nPlease choose an option by entering a bunber",
     '1 - List all books',
     '2 - List all people',
     '3 - create a person',

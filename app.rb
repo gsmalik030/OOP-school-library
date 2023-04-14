@@ -3,6 +3,7 @@ require_relative 'student'
 require_relative 'teacher'
 require_relative 'book'
 require_relative 'rental'
+require_relative 'person'
 @class_room = Classroom.new('microverse_one')
 @persons = []
 @books = []
@@ -27,7 +28,7 @@ def create_person
     name = gets.chomp
     case input
     when 1
-      print 'Hase parent permission [Y/N]: '
+      print 'Has parent permission [Y/N]: '
       permission = gets.chomp
       permission = permission.upcase == 'Y'
       student = Student.new(age, @class_room, name, permission)
