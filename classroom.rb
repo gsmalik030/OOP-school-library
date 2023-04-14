@@ -1,13 +1,13 @@
 class Classroom
-  attr_accessor :lable, :students
+  attr_accessor :label, :students
 
-  def initialize(lable)
-    @lable = lable
+  def initialize(label)
+    @label = label
     @students = []
   end
 
-  def add_students(student)
+  def add_students=(student)
     @students.push(student)
-    student.owner = self
+    student.update_classroom(self)
   end
 end
