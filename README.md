@@ -45,6 +45,7 @@ In this project ruby project I'm creating a school library.
 
 
 - **Its a Ruby project that leverages the use of classes and objects**
+- **Implement SOLID oops principles**
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 
@@ -135,6 +136,11 @@ Example:
 - GitHub: [@githubhandle](https://github.com/gsmalik030)
 - Twitter: [@twitterhandle](https://twitter.com/gsmalik030)
 - LinkedIn: [LinkedIn](https://www.linkedin.com/in/ghulam-subbhani-4b1281252/)
+
+👤 **Ram Kumar Karuppusamy**
+
+- GitHub: [@@ram1117](https://github.com/ram1117)
+- LinkedIn: [Ram Kumar Karuppusamy](https://www.linkedin.com/in/ram-kumar-karuppusamy/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
