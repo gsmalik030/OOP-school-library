@@ -9,7 +9,28 @@ require_relative 'person'
 @books = []
 @rentals = []
 def list_all_books
-  @books.each_with_index { |book, index| puts "#{index} Title: \"#{book.title}\", Author: \"#{book.author}\"" }
+  @books.each_with_index do |book, index|
+    puts "#{index} Title: \"#{book.title}\", Author: \"#{book.author}\""
+  end
+end
+
+def evaluate_options(option)
+  case option
+  when 1
+    list_all_books
+  when 2
+    list_all_people
+  when 3
+    puts create_person
+  when 4
+    puts create_book
+  when 5
+    puts create_rental
+  when 6
+    puts list_all_rentals
+  else
+    puts "Please enter a valid option\n"
+  end
 end
 
 def list_all_people
@@ -60,12 +81,14 @@ def create_rental
   list_all_books
   book_id = gets.chomp
   book = nil
-  book = @books[book_id.to_i] if book_id.to_i.to_s == book_id && book_id.to_i < @books.length
+  book = @books[book_id.to_i] if book_id.to_i.to_s == book_id &&
+                                 book_id.to_i < @books.length
   puts 'Select a person from the following list by number (not id)'
   list_all_people
   person = nil
   person_id = gets.chomp
-  person = @persons[person_id.to_i] if person_id.to_i.to_s == person_id && person_id.to_i < @persons.length
+  person = @persons[person_id.to_i] if person_id.to_i.to_s == person_id &&
+                                       person_id.to_i < @persons.length
   if book && person
     print 'Date: '
     date = gets.chomp
